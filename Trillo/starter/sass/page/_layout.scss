@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid var(--grey-light-2);
 
 }
 
@@ -31,7 +32,6 @@
 
 
 .hotel-view {
-    background-color: orangered;
     flex-grow: 1;
     height: 80rem;
 }
