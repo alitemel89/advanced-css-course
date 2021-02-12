@@ -382,3 +382,87 @@
         }
     }
 }
+
+
+
+///////////////////////////////
+// REVIEWS
+
+.review {
+    display: flex;
+   
+    
+    &__text {
+        background-color: #fff;
+        box-shadow: 0 1rem 4rem rgba(0,0,0,0.06);
+        padding: 3rem;
+        margin-bottom: 3.5rem;
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+        margin-top: 1.8rem;
+        
+    }
+
+    &__photo {
+        height: 4.5rem;
+        width: 4.5rem;
+        border-radius: 50%;
+        
+    }
+
+    &__user-box {
+        font-size: 1.2rem;
+        margin-right: auto;
+        padding: 0 1rem;
+    }
+
+    &__user-name {
+        text-transform: uppercase;
+        font-weight: 600;
+    
+    }
+
+    &__user-date {
+        font-weight: 200;
+        color: var(--grey-dark-2);
+    }
+
+    &__rating {
+        font-size: 2.5rem;
+        color: var(--color-primary);
+    }
+
+  
+
+}
+
+.user-reviews {
+    
+    &__btn {
+        font-size: inherit;
+        font-family: inherit;
+        color: var(--color-primary);
+        border: none;
+        background-color: inherit;
+        border-bottom: 1px solid var(--color-primary);
+        display: flex;
+        margin: 0 auto;    
+        padding: .3rem; 
+        
+    }
+
+    &__btn:hover {
+        transform: scale(1.05);
+        background-color: var(--color-primary);
+        color:#fff;
+        transition: all .2s;      
+    }
+
+    &__btn:active {
+        background-color: var(--color-primary-light);
+        color: #fff;
+    }
+}
